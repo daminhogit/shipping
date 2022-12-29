@@ -3,7 +3,7 @@ pipeline {
 
   stages {
 
-    stage('Compile')
+    stage('Compile') {
       steps {
         echo 'Compile'
       }
@@ -25,5 +25,6 @@ pipeline {
         echo 'Publish A Release'
       }
     }
+
   }
 }
